@@ -37,6 +37,7 @@
     <Reference Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class.cs" />
     <Compile Include="DiscountType.cs" />
     <Compile Include="Payment.cs" />
     <Compile Include="PaymentMethod.cs" />
@@ -51,7 +52,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Tariefeenheden.cs" />
-    <Compile Include="UIInfo.cs" />
     <Compile Include="PricingTable.cs" />
     <Compile Include="Card.cs" />
     <Compile Include="CoinMachine.cs" />

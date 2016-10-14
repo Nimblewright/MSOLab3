@@ -9,24 +9,45 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class Payment
+namespace Lab3
 {
-    public virtual PaymentMethod Method
+    public class Payment
     {
-        get;
-        set;
-    }
+        public virtual PaymentMethod PaymentMethod
+        {
+            get;
+            set;
+        }
 
-    public virtual PaymentMethod PaymentMethod
-    {
-        get;
-        set;
-    }
+        public virtual bool Pay(double price)
+        {
+            switch (PaymentMethod)
+            {
+                case PaymentMethod.Cash:
+                    CoinMachine cm = new CoinMachine();
+                    cm.Initialize();
+                    cm.HandlePayment(price);
+                    cm.FinishPayment();
+                    return true;
+                case PaymentMethod.CreditCard:
+                    CreditCard c = new CreditCard();
+                    c.Connect();
+                    int ccid = c.BeginTransaction((float)price);
+                    c.EndTransaction(ccid);
+                    return true;
+                case PaymentMethod.DebitCard:
+                    DebitCard d = new DebitCard();
+                    d.Connect();
+                    int dcid = d.BeginTransaction((float)price);
+                    d.EndTransaction(dcid);
+                    return true;
+                default:
+                    return false;
+                    throw new Exception("Payment not handled");
+            }
 
-    public virtual bool Pay(double price)
-    {
-        throw new System.NotImplementedException();
+        }
+
     }
 
 }
-

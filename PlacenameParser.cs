@@ -9,12 +9,56 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class PlacenameParser
+namespace Lab3
 {
-    public virtual int[] Parse(string entry)
+    public static class PlacenameParser
     {
-        throw new System.NotImplementedException();
+        private static String[] stations = {
+				"Utrecht Centraal",
+				"Gouda",
+				"Geldermalsen",
+				"Hilversum",
+				"Duivendrecht",
+				"Weesp"
+			};
+
+        public static String[] getStations()
+        {
+            return stations;
+        }
+        public static int Parse(string entry)
+        {
+            try
+            {
+                int i;
+                for (i = 0; i < stations.Length; i++)
+                {
+                    if (entry == stations[i])
+                    {
+                        break;
+                    }
+                }
+                return i;
+            }
+            catch
+            {
+                throw new System.NotSupportedException();
+            }
+        }
+
+
+        public static string Parse(int id)
+        {
+            try
+            {
+                return stations[id];
+            }
+            catch
+            {
+                throw new System.NotSupportedException();
+            }
+        }
+
     }
 
 }
-

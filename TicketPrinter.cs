@@ -9,12 +9,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class TicketPrinter
+namespace Lab3
 {
-    public virtual void Print(Ticket t)
+    public class TicketPrinter
     {
-        throw new System.NotImplementedException();
+        public virtual void Print(Ticket t)
+        {
+            throw new System.NotImplementedException();
+        }
+
     }
 
 }
-

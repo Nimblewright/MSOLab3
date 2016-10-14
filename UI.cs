@@ -17,21 +17,25 @@ namespace Lab3
 		RadioButton fortyDiscount;
 		ComboBox payment;
 		Button pay;
+        TicketMachine tm;
 
 		public UI ()
 		{
 			initializeControls ();
 		}
 
-		private void handlePayment(UIInfo info)
+		private void handlePayment(TicketMachine tm)
 		{
 			// *************************************
 			// This is the code you need to refactor
 			// *************************************
+            
+            tm.StartPayment();
 
 			// Get number of tariefeenheden
-			int tariefeenheden = Tariefeenheden.getTariefeenheden (info.From, info.To);
-
+			
+            //int tariefeenheden = Tariefeenheden.getTariefeenheden (PlacenameParser.Parse(info.From), PlacenameParser.Parse(info.To));
+            /*
 			// Compute the column in the table based on choices
 			int tableColumn;
 			// First based on class
@@ -83,7 +87,7 @@ namespace Lab3
 				coin.betala ((int) Math.Round(price * 100));
 				coin.stoppa ();
 				break;
-			}
+			}*/
 		}
 
 #region Set-up -- don't look at it
@@ -118,7 +122,7 @@ namespace Lab3
 			fromLabel.Dock = DockStyle.Fill;
 			fromBox = new ComboBox ();
 			fromBox.DropDownStyle = ComboBoxStyle.DropDownList;
-			fromBox.Items.AddRange (Tariefeenheden.getStations ());
+			fromBox.Items.AddRange (PlacenameParser.getStations ());
 			fromBox.SelectedIndex = 0;
 			grid.Controls.Add (fromBox, 1, 0);
 			grid.SetColumnSpan (fromBox, 2);
@@ -130,7 +134,7 @@ namespace Lab3
 			toLabel.Dock = DockStyle.Fill;
 			toBox = new ComboBox ();
 			toBox.DropDownStyle = ComboBoxStyle.DropDownList;
-			toBox.Items.AddRange (Tariefeenheden.getStations ());
+			toBox.Items.AddRange (PlacenameParser.getStations ());
 			toBox.SelectedIndex = 0;
 			grid.Controls.Add (toBox, 4, 0);
 			grid.SetColumnSpan (toBox, 2);
@@ -212,47 +216,45 @@ namespace Lab3
 			grid.Controls.Add (pay, 0, 3);
 			grid.SetColumnSpan (pay, 6);
 			// Set up event
-			pay.Click += (object sender, EventArgs e) => handlePayment(getUIInfo());
+			pay.Click += (object sender, EventArgs e) => handlePayment(GetInitializedMachine());
 		}
 
-		private UIInfo getUIInfo()
+		private TicketMachine GetInitializedMachine()
 		{
-			UIClass cls;
+			Class cls;
 			if (firstClass.Checked)
-				cls = UIClass.FirstClass;
+				cls = Class.first;
 			else
-				cls = UIClass.SecondClass;
+				cls = Class.second;
 
-			UIWay way;
+			TripType type;
 			if (oneWay.Checked)
-				way = UIWay.OneWay;
+				type = TripType.Single;
 			else
-				way = UIWay.Return;
+				type = TripType.Return;
 
-			UIDiscount dis;
+			DiscountType dis;
 			if (noDiscount.Checked)
-				dis = UIDiscount.NoDiscount;
+				dis = DiscountType.disc0;
 			else if (twentyDiscount.Checked)
-				dis = UIDiscount.TwentyDiscount;
+				dis = DiscountType.disc20;
 			else
-				dis = UIDiscount.FortyDiscount;
+				dis = DiscountType.disc40;
 
-			UIPayment pment;
+			PaymentMethod method;
 			switch ((string)payment.SelectedItem) {
 			case "Credit card":
-				pment = UIPayment.CreditCard;
+				method = PaymentMethod.CreditCard;
 				break;
 			case "Debit card":
-				pment = UIPayment.DebitCard;
+                method = PaymentMethod.DebitCard;
 				break;
 			default:
-				pment = UIPayment.Cash;
+                method = PaymentMethod.Cash;
 				break;
 			}
 
-			return new UIInfo ((string)fromBox.SelectedItem,
-				(string)toBox.SelectedItem,
-				cls, way, dis, pment);
+			return new TicketMachine(cls, dis, PlacenameParser.Parse((string)fromBox.SelectedItem),PlacenameParser.Parse((string)toBox.SelectedItem),method);
 		}
 #endregion
 	}

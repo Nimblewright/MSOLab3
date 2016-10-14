@@ -9,9 +9,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public enum DiscountType : int
+namespace Lab3
 {
-    d0,
-    d20,
-    d40,
+    public enum DiscountType : int
+    {
+        disc0,
+        disc20,
+        disc40,
+    }
 }

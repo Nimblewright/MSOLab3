@@ -4,7 +4,7 @@ namespace Lab3
 {
 	public static class Tariefeenheden
 	{
-		public static String[] getStations()
+		/*public static String[] getStations()
 		{
 			return new String[] {
 				"Utrecht Centraal",
@@ -15,78 +15,78 @@ namespace Lab3
 				"Weesp"
 			};
 		}
-
-		public static int getTariefeenheden(String from, String to) 
+        */
+		public static int getTariefeenheden(int from, int to) 
 		{
 			switch (from) {
-			case "Utrecht Centraal":
+			case 0:
 				switch (to) {
-				case "Utrecht Centraal":
+				case 0:
 					return 0;
-				case "Gouda":
+				case 1:
 					return 32;
-				case "Geldermalsen":
+				case 2:
 					return 26;
-				case "Hilversum":
+				case 3:
 					return 18;
-				case "Duivendrecht":
+                case 4:
 					return 31;
-				case "Weesp":
+				case 5:
 					return 33;
 				default:
 					throw new Exception ("Unknown stations");
 				}
-			case "Gouda":
+			case 1:
 				switch (to) {
-				case "Gouda":
+				case 1:
 					return 0;
-				case "Geldermalsen":
+				case 2:
 					return 58;
-				case "Hilversum":
+				case 3:
 					return 50;
-				case "Duivendrecht":
+				case 4:
 					return 54;
-				case "Weesp":
+                case 5:
 					return 57;
 				default:
 					return getTariefeenheden (to, from);
 				}
-			case "Geldermalsen":
+			case 2:
 				switch (to) {
-				case "Geldermalsen":
+				case 2:
 					return 0;
-				case "Hilversum":
+				case 3:
 					return 44;
-				case "Duivendrecht":
+				case 4:
 					return 57;
-				case "Weesp":
+				case 5:
 					return 59;
 				default:
 					return getTariefeenheden (to, from);
 				}
-			case "Hilversum":
+			case 3:
 				switch (to) {
-				case "Hilversum":
+				case 3:
 					return 0;
-				case "Duivendrecht":
+				case 4:
 					return 18;
-				case "Weesp":
+				case 5:
 					return 15;
 				default:
 					return getTariefeenheden (to, from);
 				}
-			case "Duivendrecht":
+			case 4:
 				switch (to) {
-				case "Duivendrecht":
+				case 4:
 					return 0;
-				case "Weesp":
+				case 5:
 					return 3;
 				default:
 					return getTariefeenheden (to, from);
 				}
-			case "Weesp":
+			case 5:
 				switch (to) {
-				case "Weesp":
+				case 5:
 					return 0;
 				default:
 					return getTariefeenheden (to, from);

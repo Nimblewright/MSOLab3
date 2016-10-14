@@ -9,21 +9,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+namespace Lab3{
 public class Ticket
 {
-    public virtual Int DepartureID
+    public Ticket(Class TicketClass, DiscountType discount, int DepartureID, int DestinationID)
+    {
+        this.TicketClass = TicketClass;
+        this.Discount = discount;
+        this.DepartureID = DepartureID;
+        this.DestinationID = DestinationID;
+    }
+    public virtual int DepartureID
     {
         get;
         set;
     }
 
-    public virtual Int DestinationID
+    public virtual int DestinationID
     {
         get;
         set;
     }
 
-    public virtual Date TravelDate
+    public virtual DateTime TravelDate
     {
         get;
         set;
@@ -41,13 +49,13 @@ public class Ticket
         set;
     }
 
-    public virtual TripType TripType
+    public virtual DiscountType DiscountType
     {
         get;
         set;
     }
 
-    public virtual DiscountType DiscountTypes
+    public virtual Class TicketClass
     {
         get;
         set;
@@ -55,8 +63,31 @@ public class Ticket
 
     public virtual double calculatePrice()
     {
-        throw new System.NotImplementedException();
+        int col = 0;
+        switch(TicketClass)
+        {
+            case Class.first:
+                col += 3;
+                break;
+            default:
+                break;
+        }
+        switch(DiscountType)
+        {
+            case DiscountType.disc40:
+                col += 2;
+                break;
+            case DiscountType.disc20:
+                col += 1;
+                break;
+            default:
+                break;
+        }
+
+        int tariefeenheden = Lab3.Tariefeenheden.getTariefeenheden(DepartureID, DestinationID);
+        return (double)Lab3.PricingTable.getPrice(tariefeenheden, col);
     }
 
 }
 
+}

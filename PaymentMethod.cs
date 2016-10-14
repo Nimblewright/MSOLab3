@@ -9,9 +9,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public enum PaymentMethod : int
+namespace Lab3
 {
-    Cash,
-    CreditCard,
-    DebitCard,
+    public enum PaymentMethod : int
+    {
+        Cash,
+        CreditCard,
+        DebitCard,
+    }
 }

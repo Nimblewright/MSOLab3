@@ -9,8 +9,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public enum TripType : int
+namespace Lab3
 {
-    Single,
-    Return,
+    public enum TripType : int
+    {
+        Single,
+        Return,
+    }
 }

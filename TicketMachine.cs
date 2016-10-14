@@ -9,53 +9,51 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class TicketMachine
+namespace Lab3
 {
-    public virtual Ticket[] tickets
+    public class TicketMachine
     {
-        get;
-        set;
-    }
+        public TicketMachine(Class cls, DiscountType dis, int DepartureID, int DestinationID, PaymentMethod method)
+        {
+            ticket = new Ticket(cls, dis, DepartureID, DestinationID);
+            payment = new Payment();
+            payment.PaymentMethod = method;
+            printer = new TicketPrinter();
+        }
+        public Ticket ticket
+        {
+            get;
+            set;
+        }
 
-    public virtual float timeoutTimer
-    {
-        get;
-        set;
-    }
+        public virtual float timeoutTimer
+        {
+            get;
+            set;
+        }
 
-    public virtual Ticket Ticket
-    {
-        get;
-        set;
-    }
+        public virtual TicketPrinter printer
+        {
+            get;
+            set;
+        }
 
-    public virtual PlacenameParser PlacenameParser
-    {
-        get;
-        set;
-    }
+        public Payment payment
+        {
+            get;
+            set;
+        }
 
-    public virtual TicketPrinter TicketPrinter
-    {
-        get;
-        set;
-    }
+        public virtual void StartPayment()
+        {
+            payment.Pay(ticket.calculatePrice());
+        }
 
-    public virtual Payment Payment
-    {
-        get;
-        set;
-    }
+        public virtual string GetPlacenames(string s)
+        {
+            throw new System.NotImplementedException();
+        }
 
-    public virtual void StartPayment(double price)
-    {
-        throw new System.NotImplementedException();
-    }
-
-    public virtual string GetPlacenames(string s)
-    {
-        throw new System.NotImplementedException();
     }
 
 }
-
