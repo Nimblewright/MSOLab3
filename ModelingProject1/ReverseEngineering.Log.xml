@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2016-10-14T14:02:05" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3' -  (Package)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::CreditCard' -  (Class)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::CreditCard::BeginTransaction' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::CreditCard::BeginTransaction::amount' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::CreditCard::CancelTransaction' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::CreditCard::CancelTransaction::id' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::CreditCard::Connect' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::CreditCard::CreditCard' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::CreditCard::Disconnect' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::CreditCard::EndTransaction' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::CreditCard::EndTransaction::id' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::DebitCard' -  (Class)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::DebitCard::BeginTransaction' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::DebitCard::BeginTransaction::amount' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::DebitCard::CancelTransaction' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::DebitCard::CancelTransaction::id' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::DebitCard::Connect' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::DebitCard::DebitCard' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::DebitCard::Disconnect' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::DebitCard::EndTransaction' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::DebitCard::EndTransaction::id' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::ICard' -  (Interface)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::ICard::BeginTransaction' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::ICard::BeginTransaction::amount' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::ICard::CancelTransaction' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::ICard::CancelTransaction::id' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::ICard::Connect' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::ICard::Disconnect' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::ICard::EndTransaction' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::ICard::EndTransaction::id' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::IKEAMyntAtare2000' -  (Class)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::IKEAMyntAtare2000::betala' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::IKEAMyntAtare2000::betala::pris' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::IKEAMyntAtare2000::IKEAMyntAtare2000' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::IKEAMyntAtare2000::starta' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::IKEAMyntAtare2000::stoppa' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::MainClass' -  (Class)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::MainClass::Main' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::MainClass::Main::args' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::MainClass::MainClass' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::PricingTable' -  (Class)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::PricingTable::getPrice' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::PricingTable::getPrice::col' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::PricingTable::getPrice::tariefeenheden' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::Tariefeenheden' -  (Class)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::Tariefeenheden::getStations' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::Tariefeenheden::getTariefeenheden' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::Tariefeenheden::getTariefeenheden::from' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::Tariefeenheden::getTariefeenheden::to' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI' -  (Class)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::firstClass' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::fortyDiscount' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::fromBox' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::getUIInfo' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::handlePayment' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::handlePayment::info' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::initializeControls' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::noDiscount' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::oneWay' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::pay' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::payment' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::returnWay' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::secondClass' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::toBox' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::twentyDiscount' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UI::UI' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIClass' -  (Enumeration)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIClass::FirstClass' -  (EnumerationLiteral)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIClass::SecondClass' -  (EnumerationLiteral)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIDiscount' -  (Enumeration)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIDiscount::FortyDiscount' -  (EnumerationLiteral)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIDiscount::NoDiscount' -  (EnumerationLiteral)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIDiscount::TwentyDiscount' -  (EnumerationLiteral)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo' -  (Class)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::Class' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::cls' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::discount' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::Discount' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::from' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::From' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::payment' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::Payment' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::to' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::To' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::UIInfo' -  (Operation)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::UIInfo::cls' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::UIInfo::discount' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::UIInfo::from' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::UIInfo::payment' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::UIInfo::to' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::UIInfo::way' -  (Parameter)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::way' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIInfo::Way' -  (Property)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIPayment' -  (Enumeration)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIPayment::Cash' -  (EnumerationLiteral)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIPayment::CreditCard' -  (EnumerationLiteral)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIPayment::DebitCard' -  (EnumerationLiteral)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIWay' -  (Enumeration)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIWay::OneWay' -  (EnumerationLiteral)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Lab3::UIWay::Return' -  (EnumerationLiteral)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Single' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows' -  (Package)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Forms' -  (Package)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Forms::Button' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Forms::ComboBox' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Forms::Form' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Forms::RadioButton' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Lab3::UI to ModelingProject1::System::Windows::Forms::Form (Generalization)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Lab3::UIInfo to ModelingProject1::Lab3::UIClass (Association)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Lab3::UIInfo to ModelingProject1::Lab3::UIDiscount (Association)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Lab3::UIInfo to ModelingProject1::Lab3::UIPayment (Association)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Lab3::UIInfo to ModelingProject1::Lab3::UIWay (Association)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Lab3::CreditCard to ModelingProject1::Lab3::ICard (InterfaceRealization)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Lab3::DebitCard to ModelingProject1::Lab3::ICard (InterfaceRealization)" />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="High" Text="(13) type(s) fully reverse engineered." />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="High" Text="(5) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2016-10-14T14:02:09" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>
